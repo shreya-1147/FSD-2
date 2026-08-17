@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Employee Registration Form</h1>
+
+    <form>
+
+        <label>First Name:</label>
+        <input type="text" name="fname">
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lname">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Qualification:</label>
+        <input type="checkbox" name="qualification" value="UG">
+        Under Graduate
+
+        <input type="checkbox" name="qualification" value="Graduate">
+        Graduate
+
+        <input type="checkbox" name="qualification" value="PG">
+        Post Graduate
+        <br><br>
+
+        <label>Address:</label>
+        <textarea name="address"></textarea>
+        <br><br>
+
+        <label>Country:</label>
+        <select name="country">
+            <option value="">Select Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="text" name="mobile">
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+<script src="2.js"></script>
+</body>
+</html>
