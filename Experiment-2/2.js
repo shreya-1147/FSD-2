@@ -4,7 +4,7 @@ form.addEventListener("submit", function (event) {
     event.preventDefault();
 
     // Get form values
-    const firstName = document.querySelector('input[name="fname"]').value.trim();
+    const firstName = document.querySelector('input[name="fname"]').value.trim() ;
     const lastName = document.querySelector('input[name="lname"]').value.trim();
     const gender = document.querySelector('input[name="gender"]:checked');
     const qualifications = document.querySelectorAll(
