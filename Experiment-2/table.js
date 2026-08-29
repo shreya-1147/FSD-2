@@ -13,7 +13,7 @@ billButton.addEventListener("click", function () {
     // Skip the first row because it contains headings
     for (let i = 1; i < rows.length; i++) {
 
-        const row = rows[i];
+        const row= rows[i];
 
         const productName = row.cells[1].textContent;
         const price = Number(row.cells[2].textContent);
